@@ -108,7 +108,7 @@ int main()
     }          
   }    
 
-  cout << numday[maxday] << " " << numday[minday];
+//  cout << numday[maxday] << " " << numday[minday];
 
   return 0;
 }
