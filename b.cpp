@@ -29,13 +29,13 @@ int main()
   if (year % 400 == 0 || (year % 4 == 0 && year % 100 != 0))
     flag = 1;
   
-  daynum["Monday"] = 1;
-  daynum["Tuesday"] = 2;
-  daynum["Wednesday"] = 3;
-  daynum["Thursday"] = 4;
-  daynum["Friday"] = 5;
-  daynum["Saturday"] = 6;
-  daynum["Sunday"] = 7;
+  char * days[] = {
+    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday";
+  };
+
+  for (int i = 0; i < 7; i++) {
+    daynum[days[i]] = i + 1;
+  }
 
   monthnum["January"] = 1;
   monthnum["February"] = 2;
