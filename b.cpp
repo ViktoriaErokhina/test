@@ -1,4 +1,7 @@
 /*fflknelnernfernferneroneronero*/
+/* =^_^=
+ * Hello, Vika!
+ */
 
 #include <stdio.h>
 #include <algorithm>
@@ -32,7 +35,7 @@ int main()
     flag = 1;
   
   char * days[] = {
-    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday";
+    "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
   };
 
   for (int i = 0; i < 7; i++) {
