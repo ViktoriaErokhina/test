@@ -1,3 +1,6 @@
+/* =^_^=
+ * Hello, Vika!
+ */
 #include <stdio.h>
 #include <algorithm>
 #include <iostream>
