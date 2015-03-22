@@ -27,7 +27,7 @@ int main()
   freopen("output.txt", "w", stdout); 
 
   int n, year, flag = 0;
-  cin >> n >> year;
+  //cin >> n >> year;
 
   
 
